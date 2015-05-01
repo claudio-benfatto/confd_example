@@ -1,0 +1,21 @@
+[template]
+src = "rms_nutrition.tmpl"
+dest = "/tmp/nutrition.yml"
+owner = "claudio"
+mode = "0644"
+keys = [
+    "/nutrition/usda_database_driver",
+    "/nutrition/usda_database_host",
+    "/nutrition/usda_database_port",
+    "/nutrition/usda_database_name",
+    "/nutrition/usda_database_user",
+    "/nutrition/usda_database_password",
+    "/nutrition/nevo_database_driver",
+    "/nutrition/nevo_database_host",
+    "/nutrition/nevo_database_port",
+    "/nutrition/nevo_database_name",
+    "/nutrition/nevo_database_user",
+    "/nutrition/nevo_database_password",
+
+
+]

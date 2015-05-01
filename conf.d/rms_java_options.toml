@@ -1,0 +1,18 @@
+[template]
+src = "rms_java_options.tmpl"
+dest = "/tmp/java_options.yml"
+owner = "claudio"
+mode = "0644"
+keys = [
+    "/java/cache.cacheClass",
+    "/java/cache.expireInSeconds",
+    "/java/gate.parser.pipeline",
+    "/java//language.parse.languages",
+    "/java/client.queue.prefix",
+    "/java/api.foodity.cms.host",
+    "/java/batch.import.file",
+    "/java/messagequeue.connection.timeout",
+    "/java/solr.recipes.url",
+    "/java/log4j.log.file",
+
+]

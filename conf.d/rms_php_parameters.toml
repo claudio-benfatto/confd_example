@@ -1,0 +1,45 @@
+[template]
+src = "rms_php_parameters.tmpl"
+dest = "/tmp/parameters.yml"
+owner = "claudio"
+mode = "0644"
+keys = [
+    "/parameters/database_driver",
+    "/parameters/database_host",
+    "/parameters/database_port",
+    "/parameters/database_name",
+    "/parameters/database_test_name",
+    "/parameters/database_user",
+    "/parameters/database_password",
+    "/parameters/mailer_transport",
+    "/parameters/mailer_host",
+    "/parameters/mailer_user",
+    "/parameters/mailer_password",
+    "/parameters/locale",
+    "/parameters/secret",
+    "/parameters/java_home",
+    "/parameters/processing_api_host",
+    "/parameters/processing_api_user",
+    "/parameters/processing_api_pass",
+    "/parameters/aws_access_key",
+    "/parameters/aws_secret_key",
+    "/parameters/aws_end_point",
+    "/parameters/aws_region",
+    "/parameters/force_aws_bucket",
+    "/parameters/cms_synchronisation_retries",
+    "/parameters/cms_synchronisation_api_endpoint",
+    "/parameters/cms_synchronisation_api_key",
+    "/parameters/importer_endpoint",
+    "/parameters/rabbitmq.host",
+    "/parameters/rabbitmq.port",
+    "/parameters/rabbitmq.user",
+    "parameters/rabbitmq.password",
+    "parameters/rabbitmq.vhost",
+    "parameters/sentry_enabled",
+    "parameters/jms_di_extra_use_grep",
+    "parameters/local_java_dir",
+    "/parameters/combinations_config.app_id",
+    "/parameters/combinations_config.default_language_code",
+    "/parameters/combinations_config.store_id",
+
+]

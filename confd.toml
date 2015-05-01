@@ -1,0 +1,11 @@
+backend = "etcd"
+confdir = "/etc/confd"
+debug = true
+interval = 600
+client_cert = "/etc/ssl/etcd/client.crt"
+client_key = "/etc/ssl/etcd/client.key"
+#client_cakeys = "/etc/ssl/etcd/ca.key"
+nodes = [ "https://etcd.foodity.com:4001" ]
+scheme= "https"
+quiet = false
+verbose = true
